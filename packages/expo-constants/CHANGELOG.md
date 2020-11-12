@@ -4,6 +4,8 @@
 
 ### 🛠 Breaking changes
 
+- Deprecated `.installationId` and `.deviceId`. Please implement installation identifier on your own using `expo-secure-store` on iOS, `expo-application`'s `.androidId` on Android and `localStorage` on Web.
+
 ### 🎉 New features
 
 - Added `Constants.executionEnvironment` to distinguish between apps running in a bare, managed standalone, or App/Play Store development client environment. ([#10986](https://github.com/expo/expo/pull/10986) by [@esamelson](https://github.com/esamelson))
