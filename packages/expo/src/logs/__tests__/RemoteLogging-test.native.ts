@@ -11,6 +11,11 @@ jest.mock('../LogSerialization', () => ({
 }));
 
 jest.mock('expo-constants', () => require('../../__mocks__/Constants-development'));
+jest.mock('expo-application', () => ({
+  androidId: 'i-am-unique',
+  applicationId: 'me-too',
+  getIosIdForVendorAsync: async () => 'me-too!',
+}));
 
 let originalFetch;
 
