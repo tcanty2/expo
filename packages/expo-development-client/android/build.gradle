@@ -74,17 +74,12 @@ if (new File(rootProject.projectDir.parentFile, 'package.json').exists()) {
 }
 
 dependencies {
-  unimodule 'unimodules-core'
-  unimodule 'unimodules-react-native-adapter'
-  unimodule 'expo-barcode-scanner'
-
   implementation project(":expo-dev-menu-interface")
 
   //noinspection GradleDynamicVersion
   implementation 'com.facebook.react:react-native:+'  // From node_modules
 
   implementation 'commons-io:commons-io:2.6'
-  api 'com.google.android.gms:play-services-vision:19.0.0'
 
   // Fixes
   // Cannot access 'androidx....' which is a supertype of 'expo.modules.devmenu.DevMenuActivity'.

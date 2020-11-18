@@ -1,6 +1,5 @@
 import 'react-native-url-polyfill/auto';
 
-import { BarCodeScanner } from 'expo-barcode-scanner';
 import React from 'react';
 import {
   Text,
@@ -69,20 +68,22 @@ const Button = ({ label, onPress }) => (
 //
 
 const App = () => {
-  const [scanning, setScanning] = React.useState(false);
   const [loading, setLoading] = React.useState(false);
   const [textInputUrl, setTextInputUrl] = React.useState('');
 
-  const onBarCodeScanned = ({ data }: { data: string }) => {
-    loadAppFromUrl(data, setLoading);
+  const onPressScanIOS = () => {
+    Alert.alert('Please, go to the your camera app and scan the QR code.');
   };
 
-  const onPressScan = () => {
-    setScanning(true);
-  };
-
-  const onPressCancelScan = () => {
-    setScanning(false);
+  const onPressScanAndroid = async () => {
+    try {
+      await DevelopmentClient.openCamera();
+    } catch (e) {
+      Alert.alert(
+        "Couldn't open the camera app. Please, open the system camera and scan the QR code.",
+        e.toString()
+      );
+    }
   };
 
   const onPressGoToUrl = () => {
@@ -97,17 +98,9 @@ const App = () => {
           <View style={styles.loadingContainer}>
             <Text style={styles.loadingText}>Loading...</Text>
           </View>
-        ) : scanning ? (
-          <React.Fragment>
-            <View style={styles.barCodeScannerContainer}>
-              <BarCodeScanner onBarCodeScanned={onBarCodeScanned} style={styles.barCodeScanner} />
-            </View>
-            <Button onPress={onPressCancelScan} label="Cancel" />
-          </React.Fragment>
         ) : (
-          <React.Fragment>
+          <>
             <Text style={styles.headingText}>Connect to a development server</Text>
-
             <Text style={styles.infoText}>Start a local server with:</Text>
             <View style={styles.codeBox}>
               <Text style={styles.codeText}>
@@ -116,7 +109,10 @@ const App = () => {
             </View>
 
             <Text style={styles.connectText}>Connect this client</Text>
-            <Button onPress={onPressScan} label="Scan QR code" />
+            <Button
+              onPress={Platform.select({ ios: onPressScanIOS, android: onPressScanAndroid })}
+              label="Scan QR code"
+            />
 
             <Text style={[styles.infoText, { marginTop: 12 }]}>
               Or, enter the URL of a local bundler manually:
@@ -129,7 +125,7 @@ const App = () => {
               onChangeText={text => setTextInputUrl(text)}
             />
             <Button onPress={onPressGoToUrl} label="Connect to URL" />
-          </React.Fragment>
+          </>
         )}
       </View>
     </SafeAreaView>
