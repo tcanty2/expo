@@ -7,30 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3021DF00594D3F2124676BB8D63FECDF /* EXDevelopmentClientBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = C866A0B3F0761852A0768D52D46B4227 /* EXDevelopmentClientBundle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		340829CD47BEE0139913D3DC39BB0977 /* EXDevelopmentClientController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3876D68AF8D6BD51DF16433DDF3A025 /* EXDevelopmentClientController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		46EF6C9D51264BBB3347DC856E484352 /* EXDevelopmentClientBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5A988D31037DEF37FCE6A57479B5CEF /* EXDevelopmentClientBundle.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		5090031148CFCDEEF2754BF0145A62A4 /* expo-development-client-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDAC2741313C30EB3F99123C516F1D8 /* expo-development-client-dummy.m */; };
-		69E7A232F698C7CC7E4CD057AE9D08F4 /* EXDevelopmentClientDevMenuExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F229449DD17EFAF1A36DDEE9BB1944A /* EXDevelopmentClientDevMenuExtensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		6E79E78A185A97D6E4D0FF2CA855D7A7 /* EXDevelopmentClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4BAF9F8AD90B9F5950C1FBE665C8F6 /* EXDevelopmentClient.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		76886F2F012538E1D82C8324822CD5A5 /* EXDevelopmentClientController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E8D7971ADC603D9EF001170343D5EAB /* EXDevelopmentClientController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AC9C2D36F89E7B8EBE21194AA5EAB179 /* EXDevelopmentClientController+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A9F097B3E4645B7BDCDE965780EFC9C7 /* EXDevelopmentClientController+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BFCF8F8AB0EF58AE5E10757AECC1F447 /* EXDevelopmentClientBundleSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DA4C0DF19A129B85692FC7D1B6FFBE4 /* EXDevelopmentClientBundleSource.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C285092D502863C55B779DCB1BC75CA7 /* EXDevelopmentClientRCTBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = B058A6995924C061C4F02FA2A1539A74 /* EXDevelopmentClientRCTBridge.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		D9B51EFF675B348C3519F20359BC574E /* EXDevelopmentClient.h in Headers */ = {isa = PBXBuildFile; fileRef = C5C84AFBC8D9B0E467CFAE83A06FD7CF /* EXDevelopmentClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ED30AF1082B9812F5198EDE083AC202A /* EXDevelopmentClientRCTBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F4D7567B9D00D5E3DBDD71F855CB33 /* EXDevelopmentClientRCTBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F75783C8EEA5B8C450F8C224B21627A2 /* EXDevelopmentClientBundleSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 25DEC8B4B1C2F3E9778B90EB8438A3BD /* EXDevelopmentClientBundleSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		08A726C21DAC9F171C7DA1916C461942 /* EXDevelopmentClientLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C94999D1B8B2912E7C5DCBCCB789AFB8 /* EXDevelopmentClientLoadingView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1BB03E4FAC32091F4173595979555711 /* EXDevelopmentClientController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD05CE72376A3BDA285EE0BD4BFFE562 /* EXDevelopmentClientController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2F7176CB206AC3DBC0EEAEEA9392B3FF /* EXDevelopmentClientBundleSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 54BF00B38284F53665AD10D8B3B6C252 /* EXDevelopmentClientBundleSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		32AF04BB5B662D5C30FAB1E9A1AC8F48 /* EXDevelopmentClientBundleSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2A73D0B38FB80266922368B8819AC5 /* EXDevelopmentClientBundleSource.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3490FA0E82F2D3B4A0BC1A5D077008C6 /* EXDevelopmentClientController+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EEE33F2FFF2D636A3BCC93AE5225E6D /* EXDevelopmentClientController+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3CBD09F34B459545961E93A87B7BD83E /* EXDevelopmentClientDevMenuExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FC2383DCF16DD6863DE999D75497C1 /* EXDevelopmentClientDevMenuExtensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		78D41BB899D5B19DA9506647B9F1B30E /* EXDevelopmentClientController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB5E8804AF2D7E017A88005BDBDBB31 /* EXDevelopmentClientController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7ADE773E5C6E682A9D07D3428769B2B2 /* EXDevelopmentClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E98E87BECA74D9317A4CF67E4C3FEBF5 /* EXDevelopmentClient.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7B6A25C4AA0578742CC389CB9A28C82B /* EXDevelopmentClientRCTBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 6483DA1EC986245BC2C8513AB9F4D917 /* EXDevelopmentClientRCTBridge.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8F46FA4DE5F41CC6D091FDA2CE7743AE /* EXDevelopmentClientRCTBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F32209B8F59F770226768EC5286F603 /* EXDevelopmentClientRCTBridge.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9034EF59F926FACE44150CEF13FFBEF6 /* EXDevelopmentClientBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98FBB7E35CFABD0C9496814F2DB3DDBA /* EXDevelopmentClientBundle.cpp */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AF2AA47F607C492740058E7BE9B58DE7 /* EXDevelopmentClientBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2D2C9D1D4D5114CCBB7082DF89D683 /* EXDevelopmentClientBundle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BB301EF2D78D63E570089B3036BE972C /* expo-development-client-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0772389695D501F3045545E43BE878CA /* expo-development-client-dummy.m */; };
+		DC060E62C083AB20C2A0B0C646EBC378 /* EXDevelopmentClientLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF9105F87AE573FA241941A80965EF9 /* EXDevelopmentClientLoadingView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FE73E2F40D72CB9B55E3B9C41F4905FB /* EXDevelopmentClient.h in Headers */ = {isa = PBXBuildFile; fileRef = CDFA3731F037C73CB618AE6D20635C78 /* EXDevelopmentClient.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		172D354135A9FE69FCE070DED599E64C /* PBXContainerItemProxy */ = {
+		6395608B5A2D86A943F3A035CEB74156 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9ACF32F0E3793FAA043BAA0161C67E9E /* React.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 94DA87F24FB4B93E5D08FE961D5E5A3E;
 			remoteInfo = React;
 		};
-		380BF59E0AD36AF4985ABD698BABA0EF /* PBXContainerItemProxy */ = {
+		759BD947F1BD90A0E331F7A41C0041F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 049D5563BD553F693AAB909D41CC83A5 /* EXDevMenuInterface.xcodeproj */;
 			proxyType = 1;
@@ -41,30 +43,32 @@
 
 /* Begin PBXFileReference section */
 		049D5563BD553F693AAB909D41CC83A5 /* EXDevMenuInterface */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EXDevMenuInterface; path = EXDevMenuInterface.xcodeproj; sourceTree = "<group>"; };
+		0772389695D501F3045545E43BE878CA /* expo-development-client-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "expo-development-client-dummy.m"; sourceTree = "<group>"; };
 		1369CEBA8613D4BEF8EA4AAC2772C440 /* libexpo-development-client.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libexpo-development-client.a"; path = "libexpo-development-client.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DA4C0DF19A129B85692FC7D1B6FFBE4 /* EXDevelopmentClientBundleSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXDevelopmentClientBundleSource.m; path = ios/EXDevelopmentClientBundleSource.m; sourceTree = "<group>"; };
-		1E8D7971ADC603D9EF001170343D5EAB /* EXDevelopmentClientController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXDevelopmentClientController.h; path = ios/EXDevelopmentClientController.h; sourceTree = "<group>"; };
-		25DEC8B4B1C2F3E9778B90EB8438A3BD /* EXDevelopmentClientBundleSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXDevelopmentClientBundleSource.h; path = ios/EXDevelopmentClientBundleSource.h; sourceTree = "<group>"; };
-		3F229449DD17EFAF1A36DDEE9BB1944A /* EXDevelopmentClientDevMenuExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXDevelopmentClientDevMenuExtensions.m; path = ios/EXDevelopmentClientDevMenuExtensions.m; sourceTree = "<group>"; };
-		45931F57B11EBA01DC0782A5E1C9D66F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		56F2C3D50E9CF624AEEC4D346DA84046 /* expo-development-client-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "expo-development-client-prefix.pch"; sourceTree = "<group>"; };
-		8CDAC2741313C30EB3F99123C516F1D8 /* expo-development-client-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "expo-development-client-dummy.m"; sourceTree = "<group>"; };
+		2F2A73D0B38FB80266922368B8819AC5 /* EXDevelopmentClientBundleSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXDevelopmentClientBundleSource.m; path = ios/EXDevelopmentClientBundleSource.m; sourceTree = "<group>"; };
+		54BF00B38284F53665AD10D8B3B6C252 /* EXDevelopmentClientBundleSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXDevelopmentClientBundleSource.h; path = ios/EXDevelopmentClientBundleSource.h; sourceTree = "<group>"; };
+		55D9A86E5A9B7701FB88192702AC3FA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5EB5E8804AF2D7E017A88005BDBDBB31 /* EXDevelopmentClientController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXDevelopmentClientController.h; path = ios/EXDevelopmentClientController.h; sourceTree = "<group>"; };
+		5F32209B8F59F770226768EC5286F603 /* EXDevelopmentClientRCTBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXDevelopmentClientRCTBridge.h; path = ios/EXDevelopmentClientRCTBridge.h; sourceTree = "<group>"; };
+		6483DA1EC986245BC2C8513AB9F4D917 /* EXDevelopmentClientRCTBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXDevelopmentClientRCTBridge.m; path = ios/EXDevelopmentClientRCTBridge.m; sourceTree = "<group>"; };
+		6A2A5187931074BD156ACB95F7189AB4 /* expo-development-client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "expo-development-client.debug.xcconfig"; sourceTree = "<group>"; };
+		7EEE33F2FFF2D636A3BCC93AE5225E6D /* EXDevelopmentClientController+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXDevelopmentClientController+Private.h"; path = "ios/EXDevelopmentClientController+Private.h"; sourceTree = "<group>"; };
+		8AF9105F87AE573FA241941A80965EF9 /* EXDevelopmentClientLoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXDevelopmentClientLoadingView.h; path = ios/EXDevelopmentClientLoadingView.h; sourceTree = "<group>"; };
+		929305254D88A8EFC58B1C7DF049B5C3 /* expo-development-client-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "expo-development-client-prefix.pch"; sourceTree = "<group>"; };
+		97A5DDAC009DFE85F51474A2DD5E6A85 /* expo-development-client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "expo-development-client.release.xcconfig"; sourceTree = "<group>"; };
+		98FBB7E35CFABD0C9496814F2DB3DDBA /* EXDevelopmentClientBundle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = EXDevelopmentClientBundle.cpp; path = ios/EXDevelopmentClientBundle.cpp; sourceTree = "<group>"; };
 		9ACF32F0E3793FAA043BAA0161C67E9E /* React */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React; path = React.xcodeproj; sourceTree = "<group>"; };
-		9D4BAF9F8AD90B9F5950C1FBE665C8F6 /* EXDevelopmentClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXDevelopmentClient.m; path = ios/EXDevelopmentClient.m; sourceTree = "<group>"; };
-		A277F07098A3AE533AEB4EDD6AA0ADD1 /* expo-development-client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "expo-development-client.release.xcconfig"; sourceTree = "<group>"; };
-		A71996569613E4EC5057C1A21675C0FE /* expo-development-client.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "expo-development-client.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A9F097B3E4645B7BDCDE965780EFC9C7 /* EXDevelopmentClientController+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXDevelopmentClientController+Private.h"; path = "ios/EXDevelopmentClientController+Private.h"; sourceTree = "<group>"; };
-		B058A6995924C061C4F02FA2A1539A74 /* EXDevelopmentClientRCTBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXDevelopmentClientRCTBridge.m; path = ios/EXDevelopmentClientRCTBridge.m; sourceTree = "<group>"; };
-		B0F4D7567B9D00D5E3DBDD71F855CB33 /* EXDevelopmentClientRCTBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXDevelopmentClientRCTBridge.h; path = ios/EXDevelopmentClientRCTBridge.h; sourceTree = "<group>"; };
-		B1F425E81C13C144E0298045D4ECD656 /* expo-development-client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "expo-development-client.debug.xcconfig"; sourceTree = "<group>"; };
-		B3876D68AF8D6BD51DF16433DDF3A025 /* EXDevelopmentClientController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXDevelopmentClientController.m; path = ios/EXDevelopmentClientController.m; sourceTree = "<group>"; };
-		C5C84AFBC8D9B0E467CFAE83A06FD7CF /* EXDevelopmentClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXDevelopmentClient.h; path = ios/EXDevelopmentClient.h; sourceTree = "<group>"; };
-		C866A0B3F0761852A0768D52D46B4227 /* EXDevelopmentClientBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXDevelopmentClientBundle.h; path = ios/EXDevelopmentClientBundle.h; sourceTree = "<group>"; };
-		F5A988D31037DEF37FCE6A57479B5CEF /* EXDevelopmentClientBundle.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = EXDevelopmentClientBundle.cpp; path = ios/EXDevelopmentClientBundle.cpp; sourceTree = "<group>"; };
+		C1FC2383DCF16DD6863DE999D75497C1 /* EXDevelopmentClientDevMenuExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXDevelopmentClientDevMenuExtensions.m; path = ios/EXDevelopmentClientDevMenuExtensions.m; sourceTree = "<group>"; };
+		C94999D1B8B2912E7C5DCBCCB789AFB8 /* EXDevelopmentClientLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXDevelopmentClientLoadingView.m; path = ios/EXDevelopmentClientLoadingView.m; sourceTree = "<group>"; };
+		CDFA3731F037C73CB618AE6D20635C78 /* EXDevelopmentClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXDevelopmentClient.h; path = ios/EXDevelopmentClient.h; sourceTree = "<group>"; };
+		DD05CE72376A3BDA285EE0BD4BFFE562 /* EXDevelopmentClientController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXDevelopmentClientController.m; path = ios/EXDevelopmentClientController.m; sourceTree = "<group>"; };
+		E98E87BECA74D9317A4CF67E4C3FEBF5 /* EXDevelopmentClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXDevelopmentClient.m; path = ios/EXDevelopmentClient.m; sourceTree = "<group>"; };
+		ED2D2C9D1D4D5114CCBB7082DF89D683 /* EXDevelopmentClientBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXDevelopmentClientBundle.h; path = ios/EXDevelopmentClientBundle.h; sourceTree = "<group>"; };
+		FB4C3A2CFDDE0BE2F4AC465002CF8D31 /* expo-development-client.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "expo-development-client.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4109E0F5A5520EDB9DC03734327CFB5A /* Frameworks */ = {
+		4FCD94D6B38DA4A98053E4BD643FB6A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,43 +78,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		564E7E13DD7D92C326C9B70D9F065AF7 /* expo-development-client */ = {
-			isa = PBXGroup;
-			children = (
-				C5C84AFBC8D9B0E467CFAE83A06FD7CF /* EXDevelopmentClient.h */,
-				9D4BAF9F8AD90B9F5950C1FBE665C8F6 /* EXDevelopmentClient.m */,
-				F5A988D31037DEF37FCE6A57479B5CEF /* EXDevelopmentClientBundle.cpp */,
-				C866A0B3F0761852A0768D52D46B4227 /* EXDevelopmentClientBundle.h */,
-				25DEC8B4B1C2F3E9778B90EB8438A3BD /* EXDevelopmentClientBundleSource.h */,
-				1DA4C0DF19A129B85692FC7D1B6FFBE4 /* EXDevelopmentClientBundleSource.m */,
-				1E8D7971ADC603D9EF001170343D5EAB /* EXDevelopmentClientController.h */,
-				B3876D68AF8D6BD51DF16433DDF3A025 /* EXDevelopmentClientController.m */,
-				A9F097B3E4645B7BDCDE965780EFC9C7 /* EXDevelopmentClientController+Private.h */,
-				3F229449DD17EFAF1A36DDEE9BB1944A /* EXDevelopmentClientDevMenuExtensions.m */,
-				B0F4D7567B9D00D5E3DBDD71F855CB33 /* EXDevelopmentClientRCTBridge.h */,
-				B058A6995924C061C4F02FA2A1539A74 /* EXDevelopmentClientRCTBridge.m */,
-				690BA45873001B4320627EF14BB279D4 /* Pod */,
-				BACBFFD2979EF920CC13583E4463E99B /* Support Files */,
-			);
-			name = "expo-development-client";
-			path = "../../../../packages/expo-development-client";
-			sourceTree = "<group>";
-		};
 		60526C500F9394CA315BBB3FEF955B22 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				1369CEBA8613D4BEF8EA4AAC2772C440 /* libexpo-development-client.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		690BA45873001B4320627EF14BB279D4 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A71996569613E4EC5057C1A21675C0FE /* expo-development-client.podspec */,
-				45931F57B11EBA01DC0782A5E1C9D66F /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		6E35A53483E2F39F225CEAEABEB7B45C /* Dependencies */ = {
@@ -122,23 +95,56 @@
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
+		797A94179A8CA9E1B4AA7E852DDAF8AD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FB4C3A2CFDDE0BE2F4AC465002CF8D31 /* expo-development-client.podspec */,
+				55D9A86E5A9B7701FB88192702AC3FA2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		A941AEFFA5449F1C03708C3577C2FEAB = {
 			isa = PBXGroup;
 			children = (
 				6E35A53483E2F39F225CEAEABEB7B45C /* Dependencies */,
-				564E7E13DD7D92C326C9B70D9F065AF7 /* expo-development-client */,
+				AC9F717275E1873207D238F9A29F4361 /* expo-development-client */,
 				EB9B17CB4CB2CC9E207E3B91AC1AA05B /* Frameworks */,
 				60526C500F9394CA315BBB3FEF955B22 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BACBFFD2979EF920CC13583E4463E99B /* Support Files */ = {
+		AC9F717275E1873207D238F9A29F4361 /* expo-development-client */ = {
 			isa = PBXGroup;
 			children = (
-				8CDAC2741313C30EB3F99123C516F1D8 /* expo-development-client-dummy.m */,
-				56F2C3D50E9CF624AEEC4D346DA84046 /* expo-development-client-prefix.pch */,
-				B1F425E81C13C144E0298045D4ECD656 /* expo-development-client.debug.xcconfig */,
-				A277F07098A3AE533AEB4EDD6AA0ADD1 /* expo-development-client.release.xcconfig */,
+				CDFA3731F037C73CB618AE6D20635C78 /* EXDevelopmentClient.h */,
+				E98E87BECA74D9317A4CF67E4C3FEBF5 /* EXDevelopmentClient.m */,
+				98FBB7E35CFABD0C9496814F2DB3DDBA /* EXDevelopmentClientBundle.cpp */,
+				ED2D2C9D1D4D5114CCBB7082DF89D683 /* EXDevelopmentClientBundle.h */,
+				54BF00B38284F53665AD10D8B3B6C252 /* EXDevelopmentClientBundleSource.h */,
+				2F2A73D0B38FB80266922368B8819AC5 /* EXDevelopmentClientBundleSource.m */,
+				5EB5E8804AF2D7E017A88005BDBDBB31 /* EXDevelopmentClientController.h */,
+				DD05CE72376A3BDA285EE0BD4BFFE562 /* EXDevelopmentClientController.m */,
+				7EEE33F2FFF2D636A3BCC93AE5225E6D /* EXDevelopmentClientController+Private.h */,
+				C1FC2383DCF16DD6863DE999D75497C1 /* EXDevelopmentClientDevMenuExtensions.m */,
+				8AF9105F87AE573FA241941A80965EF9 /* EXDevelopmentClientLoadingView.h */,
+				C94999D1B8B2912E7C5DCBCCB789AFB8 /* EXDevelopmentClientLoadingView.m */,
+				5F32209B8F59F770226768EC5286F603 /* EXDevelopmentClientRCTBridge.h */,
+				6483DA1EC986245BC2C8513AB9F4D917 /* EXDevelopmentClientRCTBridge.m */,
+				797A94179A8CA9E1B4AA7E852DDAF8AD /* Pod */,
+				CD4B39968DD6371AE2A763FDC941AE2A /* Support Files */,
+			);
+			name = "expo-development-client";
+			path = "../../../../packages/expo-development-client";
+			sourceTree = "<group>";
+		};
+		CD4B39968DD6371AE2A763FDC941AE2A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0772389695D501F3045545E43BE878CA /* expo-development-client-dummy.m */,
+				929305254D88A8EFC58B1C7DF049B5C3 /* expo-development-client-prefix.pch */,
+				6A2A5187931074BD156ACB95F7189AB4 /* expo-development-client.debug.xcconfig */,
+				97A5DDAC009DFE85F51474A2DD5E6A85 /* expo-development-client.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../../apps/bare-expo/ios/Pods/Target Support Files/expo-development-client";
@@ -154,16 +160,17 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		32AE80F141B711D2D24368E7517E084C /* Headers */ = {
+		A979BD2CE84D0E03E30298B73BB50DEA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9B51EFF675B348C3519F20359BC574E /* EXDevelopmentClient.h in Headers */,
-				3021DF00594D3F2124676BB8D63FECDF /* EXDevelopmentClientBundle.h in Headers */,
-				F75783C8EEA5B8C450F8C224B21627A2 /* EXDevelopmentClientBundleSource.h in Headers */,
-				AC9C2D36F89E7B8EBE21194AA5EAB179 /* EXDevelopmentClientController+Private.h in Headers */,
-				76886F2F012538E1D82C8324822CD5A5 /* EXDevelopmentClientController.h in Headers */,
-				ED30AF1082B9812F5198EDE083AC202A /* EXDevelopmentClientRCTBridge.h in Headers */,
+				FE73E2F40D72CB9B55E3B9C41F4905FB /* EXDevelopmentClient.h in Headers */,
+				AF2AA47F607C492740058E7BE9B58DE7 /* EXDevelopmentClientBundle.h in Headers */,
+				2F7176CB206AC3DBC0EEAEEA9392B3FF /* EXDevelopmentClientBundleSource.h in Headers */,
+				3490FA0E82F2D3B4A0BC1A5D077008C6 /* EXDevelopmentClientController+Private.h in Headers */,
+				78D41BB899D5B19DA9506647B9F1B30E /* EXDevelopmentClientController.h in Headers */,
+				DC060E62C083AB20C2A0B0C646EBC378 /* EXDevelopmentClientLoadingView.h in Headers */,
+				8F46FA4DE5F41CC6D091FDA2CE7743AE /* EXDevelopmentClientRCTBridge.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,17 +179,17 @@
 /* Begin PBXNativeTarget section */
 		C91A385B985767C3C358660DF606378B /* expo-development-client */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB62EAF69D759D76AD55FF4F92479913 /* Build configuration list for PBXNativeTarget "expo-development-client" */;
+			buildConfigurationList = 3E6AA2B8020D573654C0EBF13BB95E72 /* Build configuration list for PBXNativeTarget "expo-development-client" */;
 			buildPhases = (
-				32AE80F141B711D2D24368E7517E084C /* Headers */,
-				50AA25CF26AC87B095569B3BC19407DD /* Sources */,
-				4109E0F5A5520EDB9DC03734327CFB5A /* Frameworks */,
+				A979BD2CE84D0E03E30298B73BB50DEA /* Headers */,
+				308EFDA5A838B619B43FD5BF813E13B2 /* Sources */,
+				4FCD94D6B38DA4A98053E4BD643FB6A1 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9D261188F8306EC6D263C461671EA223 /* PBXTargetDependency */,
-				011CB548CF859E3005BA0A94939C305E /* PBXTargetDependency */,
+				C527979FE8AB15A42BCCDE2A935D0101 /* PBXTargetDependency */,
+				AA95A26959C9A06CB39B5415775D375C /* PBXTargetDependency */,
 			);
 			name = "expo-development-client";
 			productName = "expo-development-client";
@@ -225,32 +232,33 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		50AA25CF26AC87B095569B3BC19407DD /* Sources */ = {
+		308EFDA5A838B619B43FD5BF813E13B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E79E78A185A97D6E4D0FF2CA855D7A7 /* EXDevelopmentClient.m in Sources */,
-				46EF6C9D51264BBB3347DC856E484352 /* EXDevelopmentClientBundle.cpp in Sources */,
-				BFCF8F8AB0EF58AE5E10757AECC1F447 /* EXDevelopmentClientBundleSource.m in Sources */,
-				340829CD47BEE0139913D3DC39BB0977 /* EXDevelopmentClientController.m in Sources */,
-				69E7A232F698C7CC7E4CD057AE9D08F4 /* EXDevelopmentClientDevMenuExtensions.m in Sources */,
-				C285092D502863C55B779DCB1BC75CA7 /* EXDevelopmentClientRCTBridge.m in Sources */,
-				5090031148CFCDEEF2754BF0145A62A4 /* expo-development-client-dummy.m in Sources */,
+				7ADE773E5C6E682A9D07D3428769B2B2 /* EXDevelopmentClient.m in Sources */,
+				9034EF59F926FACE44150CEF13FFBEF6 /* EXDevelopmentClientBundle.cpp in Sources */,
+				32AF04BB5B662D5C30FAB1E9A1AC8F48 /* EXDevelopmentClientBundleSource.m in Sources */,
+				1BB03E4FAC32091F4173595979555711 /* EXDevelopmentClientController.m in Sources */,
+				3CBD09F34B459545961E93A87B7BD83E /* EXDevelopmentClientDevMenuExtensions.m in Sources */,
+				08A726C21DAC9F171C7DA1916C461942 /* EXDevelopmentClientLoadingView.m in Sources */,
+				7B6A25C4AA0578742CC389CB9A28C82B /* EXDevelopmentClientRCTBridge.m in Sources */,
+				BB301EF2D78D63E570089B3036BE972C /* expo-development-client-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		011CB548CF859E3005BA0A94939C305E /* PBXTargetDependency */ = {
+		AA95A26959C9A06CB39B5415775D375C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = React;
-			targetProxy = 172D354135A9FE69FCE070DED599E64C /* PBXContainerItemProxy */;
+			targetProxy = 6395608B5A2D86A943F3A035CEB74156 /* PBXContainerItemProxy */;
 		};
-		9D261188F8306EC6D263C461671EA223 /* PBXTargetDependency */ = {
+		C527979FE8AB15A42BCCDE2A935D0101 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EXDevMenuInterface;
-			targetProxy = 380BF59E0AD36AF4985ABD698BABA0EF /* PBXContainerItemProxy */;
+			targetProxy = 759BD947F1BD90A0E331F7A41C0041F1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -317,9 +325,9 @@
 			};
 			name = Release;
 		};
-		5D9478FEDACB5C66466C83BF825CEA84 /* Debug */ = {
+		2263D8036494D1AB9185C6E3024B7229 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1F425E81C13C144E0298045D4ECD656 /* expo-development-client.debug.xcconfig */;
+			baseConfigurationReference = 6A2A5187931074BD156ACB95F7189AB4 /* expo-development-client.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -341,9 +349,9 @@
 			};
 			name = Debug;
 		};
-		BB9D2574FB8B9A649662020049AC1FB2 /* Release */ = {
+		49C9D3910165FAFB0AC77460B90C30C5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A277F07098A3AE533AEB4EDD6AA0ADD1 /* expo-development-client.release.xcconfig */;
+			baseConfigurationReference = 97A5DDAC009DFE85F51474A2DD5E6A85 /* expo-development-client.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -444,11 +452,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB62EAF69D759D76AD55FF4F92479913 /* Build configuration list for PBXNativeTarget "expo-development-client" */ = {
+		3E6AA2B8020D573654C0EBF13BB95E72 /* Build configuration list for PBXNativeTarget "expo-development-client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5D9478FEDACB5C66466C83BF825CEA84 /* Debug */,
-				BB9D2574FB8B9A649662020049AC1FB2 /* Release */,
+				2263D8036494D1AB9185C6E3024B7229 /* Debug */,
+				49C9D3910165FAFB0AC77460B90C30C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

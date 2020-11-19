@@ -9,6 +9,7 @@
 #import "EXDevelopmentClientBundle.h"
 #import "EXDevelopmentClientBundleSource.h"
 #import "EXDevelopmentClientRCTBridge.m"
+#import "EXDevelopmentClientLoadingView.h"
 
 #import <UIKit/UIKit.h>
 
@@ -45,6 +46,7 @@ NSString *fakeLauncherBundleUrl = @"embedded://exdevelopmentclient/dummy";
   return [extraModules arrayByAddingObjectsFromArray:@[
     [[RCTDevMenu alloc] init],
     [[RCTAsyncLocalStorage alloc] init],
+    [[EXDevelopmentClientLoadingView alloc] init]
   ]];
 }
 
