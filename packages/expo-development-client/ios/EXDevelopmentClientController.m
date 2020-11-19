@@ -32,20 +32,13 @@ NSString *fakeLauncherBundleUrl = @"embedded://exdevelopmentclient/dummy";
   return theController;
 }
 
-- (instancetype)init {
-  if (self = [super init]) {
-    self.moduleRegistryAdapter = [[UMModuleRegistryAdapter alloc] initWithModuleRegistryProvider:[[UMModuleRegistryProvider alloc] init]];
-  }
-  return self;
-}
 
 - (NSArray<id<RCTBridgeModule>> *)extraModulesForBridge:(RCTBridge *)bridge
 {
-  NSArray<id<RCTBridgeModule>> *extraModules = [_moduleRegistryAdapter extraModulesForBridge:bridge];
-  return [extraModules arrayByAddingObjectsFromArray:@[
+  return @[
     [[RCTDevMenu alloc] init],
-    [[RCTAsyncLocalStorage alloc] init],
-  ]];
+    [[RCTAsyncLocalStorage alloc] init]
+  ];
 }
 
 #ifdef DEV_LAUNCHER_URL
