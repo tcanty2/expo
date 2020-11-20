@@ -6,7 +6,14 @@
 
 ### 🎉 New features
 
+- Add experimental invisible reCAPTCHA. ([#9474](https://github.com/expo/expo/pull/9474) by [@IjzerenHein](https://github.com/IjzerenHein))
+- Add appVerificationDisabledForTesting prop to enable test mode. ([#10905](https://github.com/expo/expo/pull/10905) by [@IjzerenHein](https://github.com/IjzerenHein))
+
 ### 🐛 Bug fixes
+
+## 1.2.1 — 2020-11-17
+
+_This version does not introduce any user-facing changes._
 
 ## 1.2.0 — 2020-08-18
 
